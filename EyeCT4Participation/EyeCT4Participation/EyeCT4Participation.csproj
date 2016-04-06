@@ -52,7 +52,7 @@
     </Compile>
     <Compile Include="Business\Appointment.cs" />
     <Compile Include="Business\ChatHistory.cs" />
-    <Compile Include="Business\HelpRequest.cs" />
+    <Compile Include="Business\Request.cs" />
     <Compile Include="Business\Review.cs" />
     <Compile Include="Business\User\Admin.cs" />
     <Compile Include="Business\User\Needy.cs" />
@@ -70,7 +70,7 @@
       <DependentUpon>Hulpbehoevende.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Chatbox.cs" />
-    <Compile Include="UI\HelpRequestOverview.cs" />
+    <Compile Include="UI\RequestOverview.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
