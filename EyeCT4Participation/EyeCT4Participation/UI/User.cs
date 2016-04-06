@@ -8,6 +8,9 @@ namespace EyeCT4Participation.UI
 {
     abstract class User
     {
-        
+        string name;
+        string address;
+        string city;
+        int phonenumber; 
     }
 }
