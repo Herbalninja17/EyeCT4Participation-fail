@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Participation.Business.User
 {
-    class Needy
+    class Needy : UI.User
     {
     }
 }
