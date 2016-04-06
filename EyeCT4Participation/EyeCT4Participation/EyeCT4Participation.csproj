@@ -50,6 +50,13 @@
     <Compile Include="Beheerder.Designer.cs">
       <DependentUpon>Beheerder.cs</DependentUpon>
     </Compile>
+    <Compile Include="Business\Appointment.cs" />
+    <Compile Include="Business\ChatHistory.cs" />
+    <Compile Include="Business\HelpRequest.cs" />
+    <Compile Include="Business\Review.cs" />
+    <Compile Include="Business\User\Admin.cs" />
+    <Compile Include="Business\User\Needy.cs" />
+    <Compile Include="Business\User\Volunteer.cs" />
     <Compile Include="Chat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +69,8 @@
     <Compile Include="Hulpbehoevende.Designer.cs">
       <DependentUpon>Hulpbehoevende.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Chatbox.cs" />
+    <Compile Include="UI\HelpRequestOverview.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +79,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\Login.cs" />
+    <Compile Include="UI\ReviewOverview.cs" />
+    <Compile Include="UI\User.cs" />
     <Compile Include="Vrijwilliger.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataBase\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
