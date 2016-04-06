@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace EyeCT4Participation.Business.User
 {
-    class Admin : UI.User
+    class Admin : UI.User 
     {
-         
+        int adminID;
     }
 }
