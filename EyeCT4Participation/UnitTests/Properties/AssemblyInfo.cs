@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EyeCT4Participation")]
+[assembly: AssemblyTitle("UnitTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EyeCT4Participation")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("Hewlett-Packard Company")]
+[assembly: AssemblyProduct("UnitTests")]
+[assembly: AssemblyCopyright("Copyright © Hewlett-Packard Company 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e0e86a7b-0070-4e09-8460-a8587e8840ba")]
+[assembly: Guid("9ffdf09b-5c21-46fb-96bd-a8d0e0f7cbca")]
 
 // Version information for an assembly consists of the following four values:
 //

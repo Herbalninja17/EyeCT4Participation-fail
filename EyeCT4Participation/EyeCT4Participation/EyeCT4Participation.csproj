@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{26E9DCC3-E2F0-4409-A426-C0143DC20460}</ProjectGuid>
+    <ProjectGuid>{36FE7C6D-F3F4-4624-9CF7-544B388D7FD8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EyeCT4Participation</RootNamespace>
